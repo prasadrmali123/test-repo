@@ -10,6 +10,7 @@ public with sharing class ContactHandler {
     public ContactHandler(Integer amount, String name) {
         System.debug('You have to Pay '+amount+' $ Please Pay '+name);
     }
+    //he[[o]]
     
     public static void createAccount(String fName, String lName){
         Account acc = new Account();
